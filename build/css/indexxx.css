@@ -132,7 +132,7 @@ https://templatemo.com/tm-512-moonlight
   font-style: italic;
 }
 .indexxx h1 {
-  margin: .67em 0;
+  margin: 0.67em 0;
   font-size: 2em;
 }
 .indexxx mark {
@@ -197,9 +197,9 @@ https://templatemo.com/tm-512-moonlight
   text-transform: none;
 }
 .indexxx button,
-.indexxx html input[type=button],
-.indexxx input[type=reset],
-.indexxx input[type=submit] {
+.indexxx html input[type="button"],
+.indexxx input[type="reset"],
+.indexxx input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -215,29 +215,29 @@ https://templatemo.com/tm-512-moonlight
 .indexxx input {
   line-height: normal;
 }
-.indexxx input[type=checkbox],
-.indexxx input[type=radio] {
+.indexxx input[type="checkbox"],
+.indexxx input[type="radio"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
 }
-.indexxx input[type=number]::-webkit-inner-spin-button,
-.indexxx input[type=number]::-webkit-outer-spin-button {
+.indexxx input[type="number"]::-webkit-inner-spin-button,
+.indexxx input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-.indexxx input[type=search] {
+.indexxx input[type="search"] {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-appearance: textfield;
 }
-.indexxx input[type=search]::-webkit-search-cancel-button,
-.indexxx input[type=search]::-webkit-search-decoration {
+.indexxx input[type="search"]::-webkit-search-cancel-button,
+.indexxx input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 .indexxx fieldset {
-  padding: .35em .625em .75em;
+  padding: 0.35em 0.625em 0.75em;
   margin: 0 2px;
   border: 1px solid silver;
 }
@@ -263,10 +263,10 @@ https://templatemo.com/tm-512-moonlight
   .indexxx *,
   .indexxx :before,
   .indexxx :after {
-    color: #000!important;
-    text-shadow: none!important;
-    background: transparent!important;
-    -webkit-box-shadow: none!important;
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
   }
   .indexxx a,
@@ -334,15 +334,20 @@ https://templatemo.com/tm-512-moonlight
   }
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
+  font-family: "Glyphicons Halflings";
   src: url(../fonts/glyphicons-halflings-regular.eot);
-  src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+  src: url(../fonts/glyphicons-halflings-regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/glyphicons-halflings-regular.woff) format("woff"),
+    url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"),
+    url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular)
+      format("svg");
 }
 .indexxx .glyphicon {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: "Glyphicons Halflings";
   font-style: normal;
   font-weight: 400;
   line-height: 1;
@@ -971,7 +976,7 @@ https://templatemo.com/tm-512-moonlight
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-  overflow:hidden;
+  overflow: hidden;
 }
 .indexxx input,
 .indexxx button,
@@ -1189,7 +1194,7 @@ https://templatemo.com/tm-512-moonlight
 }
 .indexxx mark,
 .indexxx .mark {
-  padding: .2em;
+  padding: 0.2em;
   background-color: #fcf8e3;
 }
 .indexxx .text-left {
@@ -1369,7 +1374,7 @@ https://templatemo.com/tm-512-moonlight
 .indexxx blockquote footer:before,
 .indexxx blockquote small:before,
 .indexxx blockquote .small:before {
-  content: '\2014 \00A0';
+  content: "\2014 \00A0";
 }
 .indexxx .blockquote-reverse,
 .indexxx blockquote.pull-right {
@@ -1385,7 +1390,7 @@ https://templatemo.com/tm-512-moonlight
 .indexxx blockquote.pull-right small:before,
 .indexxx .blockquote-reverse .small:before,
 .indexxx blockquote.pull-right .small:before {
-  content: '';
+  content: "";
 }
 .indexxx .blockquote-reverse footer:after,
 .indexxx blockquote.pull-right footer:after,
@@ -1393,7 +1398,7 @@ https://templatemo.com/tm-512-moonlight
 .indexxx blockquote.pull-right small:after,
 .indexxx .blockquote-reverse .small:after,
 .indexxx blockquote.pull-right .small:after {
-  content: '\00A0 \2014';
+  content: "\00A0 \2014";
 }
 .indexxx address {
   margin-bottom: 20px;
@@ -2292,13 +2297,13 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .table-hover > tbody > tr:hover {
   background-color: #f5f5f5;
 }
-.indexxx table col[class*=col-] {
+.indexxx table col[class*="col-"] {
   position: static;
   display: table-column;
   float: none;
 }
-.indexxx table td[class*=col-],
-.indexxx table th[class*=col-] {
+.indexxx table td[class*="col-"],
+.indexxx table th[class*="col-"] {
   position: static;
   display: table-cell;
   float: none;
@@ -2409,7 +2414,7 @@ https://templatemo.com/tm-512-moonlight
   background-color: #ebcccc;
 }
 .indexxx .table-responsive {
-  min-height: .01%;
+  min-height: 0.01%;
   overflow-x: auto;
 }
 @media screen and (max-width: 767px) {
@@ -2480,21 +2485,21 @@ https://templatemo.com/tm-512-moonlight
   margin-bottom: 5px;
   font-weight: 700;
 }
-.indexxx input[type=search] {
+.indexxx input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.indexxx input[type=radio],
-.indexxx input[type=checkbox] {
+.indexxx input[type="radio"],
+.indexxx input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal;
 }
-.indexxx input[type=file] {
+.indexxx input[type="file"] {
   display: block;
 }
-.indexxx input[type=range] {
+.indexxx input[type="range"] {
   display: block;
   width: 100%;
 }
@@ -2502,9 +2507,9 @@ https://templatemo.com/tm-512-moonlight
 .indexxx select[size] {
   height: auto;
 }
-.indexxx input[type=file]:focus,
-.indexxx input[type=radio]:focus,
-.indexxx input[type=checkbox]:focus {
+.indexxx input[type="file"]:focus,
+.indexxx input[type="radio"]:focus,
+.indexxx input[type="checkbox"]:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -2530,15 +2535,18 @@ https://templatemo.com/tm-512-moonlight
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 .indexxx .form-control:focus {
   border-color: #66afe9;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
 }
 .indexxx .form-control::-moz-placeholder {
   color: #999;
@@ -2560,26 +2568,26 @@ https://templatemo.com/tm-512-moonlight
 .indexxx textarea.form-control {
   height: auto;
 }
-.indexxx input[type=search] {
+.indexxx input[type="search"] {
   -webkit-appearance: none;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  .indexxx input[type=date],
-  .indexxx input[type=time],
-  .indexxx input[type=datetime-local],
-  .indexxx input[type=month] {
+  .indexxx input[type="date"],
+  .indexxx input[type="time"],
+  .indexxx input[type="datetime-local"],
+  .indexxx input[type="month"] {
     line-height: 34px;
   }
-  .indexxx input[type=date].input-sm,
-  .indexxx input[type=time].input-sm,
-  .indexxx input[type=datetime-local].input-sm,
-  .indexxx input[type=month].input-sm {
+  .indexxx input[type="date"].input-sm,
+  .indexxx input[type="time"].input-sm,
+  .indexxx input[type="datetime-local"].input-sm,
+  .indexxx input[type="month"].input-sm {
     line-height: 30px;
   }
-  .indexxx input[type=date].input-lg,
-  .indexxx input[type=time].input-lg,
-  .indexxx input[type=datetime-local].input-lg,
-  .indexxx input[type=month].input-lg {
+  .indexxx input[type="date"].input-lg,
+  .indexxx input[type="time"].input-lg,
+  .indexxx input[type="datetime-local"].input-lg,
+  .indexxx input[type="month"].input-lg {
     line-height: 46px;
   }
 }
@@ -2601,10 +2609,10 @@ https://templatemo.com/tm-512-moonlight
   font-weight: 400;
   cursor: pointer;
 }
-.indexxx .radio input[type=radio],
-.indexxx .radio-inline input[type=radio],
-.indexxx .checkbox input[type=checkbox],
-.indexxx .checkbox-inline input[type=checkbox] {
+.indexxx .radio input[type="radio"],
+.indexxx .radio-inline input[type="radio"],
+.indexxx .checkbox input[type="checkbox"],
+.indexxx .checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-top: 4px \9;
   margin-left: -20px;
@@ -2627,12 +2635,12 @@ https://templatemo.com/tm-512-moonlight
   margin-top: 0;
   margin-left: 10px;
 }
-.indexxx input[type=radio][disabled],
-.indexxx input[type=checkbox][disabled],
-.indexxx input[type=radio].disabled,
-.indexxx input[type=checkbox].disabled,
-.indexxx fieldset[disabled] input[type=radio],
-.indexxx fieldset[disabled] input[type=checkbox] {
+.indexxx input[type="radio"][disabled],
+.indexxx input[type="checkbox"][disabled],
+.indexxx input[type="radio"].disabled,
+.indexxx input[type="checkbox"].disabled,
+.indexxx fieldset[disabled] input[type="radio"],
+.indexxx fieldset[disabled] input[type="checkbox"] {
   cursor: not-allowed;
 }
 .indexxx .radio-inline.disabled,
@@ -2866,8 +2874,8 @@ https://templatemo.com/tm-512-moonlight
   .indexxx .form-inline .checkbox label {
     padding-left: 0;
   }
-  .indexxx .form-inline .radio input[type=radio],
-  .indexxx .form-inline .checkbox input[type=checkbox] {
+  .indexxx .form-inline .radio input[type="radio"],
+  .indexxx .form-inline .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
@@ -3296,15 +3304,15 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .btn-block + .btn-block {
   margin-top: 5px;
 }
-.indexxx input[type=submit].btn-block,
-.indexxx input[type=reset].btn-block,
-.indexxx input[type=button].btn-block {
+.indexxx input[type="submit"].btn-block,
+.indexxx input[type="reset"].btn-block,
+.indexxx input[type="button"].btn-block {
   width: 100%;
 }
 .indexxx .fade {
   opacity: 0;
-  -webkit-transition: opacity .15s linear;
-  -o-transition: opacity .15s linear;
+  -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 .indexxx .fade.in {
@@ -3331,9 +3339,9 @@ https://templatemo.com/tm-512-moonlight
   -webkit-transition-timing-function: ease;
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
-  -webkit-transition-duration: .35s;
-  -o-transition-duration: .35s;
-  transition-duration: .35s;
+  -webkit-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
   -webkit-transition-property: height, visibility;
   -o-transition-property: height, visibility;
   transition-property: height, visibility;
@@ -3509,7 +3517,9 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .btn-toolbar > .input-group {
   margin-left: 5px;
 }
-.indexxx .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+.indexxx
+  .btn-group
+  > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
 .indexxx .btn-group > .btn:first-child {
@@ -3600,15 +3610,27 @@ https://templatemo.com/tm-512-moonlight
   border-top-right-radius: 0;
   border-bottom-left-radius: 4px;
 }
-.indexxx .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+.indexxx
+  .btn-group-vertical
+  > .btn-group:not(:first-child):not(:last-child)
+  > .btn {
   border-radius: 0;
 }
-.indexxx .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
-.indexxx .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+.indexxx
+  .btn-group-vertical
+  > .btn-group:first-child:not(:last-child)
+  > .btn:last-child,
+.indexxx
+  .btn-group-vertical
+  > .btn-group:first-child:not(:last-child)
+  > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.indexxx .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
+.indexxx
+  .btn-group-vertical
+  > .btn-group:last-child:not(:first-child)
+  > .btn:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -3630,10 +3652,10 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .btn-group-justified > .btn-group .dropdown-menu {
   left: auto;
 }
-.indexxx [data-toggle=buttons] > .btn input[type=radio],
-.indexxx [data-toggle=buttons] > .btn-group > .btn input[type=radio],
-.indexxx [data-toggle=buttons] > .btn input[type=checkbox],
-.indexxx [data-toggle=buttons] > .btn-group > .btn input[type=checkbox] {
+.indexxx [data-toggle="buttons"] > .btn input[type="radio"],
+.indexxx [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+.indexxx [data-toggle="buttons"] > .btn input[type="checkbox"],
+.indexxx [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
@@ -3643,7 +3665,7 @@ https://templatemo.com/tm-512-moonlight
   display: table;
   border-collapse: separate;
 }
-.indexxx .input-group[class*=col-] {
+.indexxx .input-group[class*="col-"] {
   float: none;
   padding-right: 0;
   padding-left: 0;
@@ -3738,8 +3760,8 @@ https://templatemo.com/tm-512-moonlight
   font-size: 18px;
   border-radius: 6px;
 }
-.indexxx .input-group-addon input[type=radio],
-.indexxx .input-group-addon input[type=checkbox] {
+.indexxx .input-group-addon input[type="radio"],
+.indexxx .input-group-addon input[type="checkbox"] {
   margin-top: 0;
 }
 .indexxx .input-group .form-control:first-child,
@@ -3747,7 +3769,9 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .input-group-btn:first-child > .btn,
 .indexxx .input-group-btn:first-child > .btn-group > .btn,
 .indexxx .input-group-btn:first-child > .dropdown-toggle,
-.indexxx .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.indexxx
+  .input-group-btn:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle),
 .indexxx .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -4021,10 +4045,10 @@ https://templatemo.com/tm-512-moonlight
     box-shadow: none;
   }
   .indexxx .navbar-collapse.collapse {
-    display: block!important;
-    height: auto!important;
+    display: block !important;
+    height: auto !important;
     padding-bottom: 0;
-    overflow: visible!important;
+    overflow: visible !important;
     visibility: visible !important;
   }
   .indexxx .navbar-collapse.in {
@@ -4195,8 +4219,10 @@ https://templatemo.com/tm-512-moonlight
   margin-left: -15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.1);
 }
 @media (min-width: 768px) {
   .indexxx .navbar-form .form-group {
@@ -4239,8 +4265,8 @@ https://templatemo.com/tm-512-moonlight
   .indexxx .navbar-form .checkbox label {
     padding-left: 0;
   }
-  .indexxx .navbar-form .radio input[type=radio],
-  .indexxx .navbar-form .checkbox input[type=checkbox] {
+  .indexxx .navbar-form .radio input[type="radio"],
+  .indexxx .navbar-form .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
@@ -4307,7 +4333,7 @@ https://templatemo.com/tm-512-moonlight
     float: left !important;
   }
   .indexxx .navbar-right {
-    float: right!important;
+    float: right !important;
     margin-right: -15px;
   }
   .indexxx .navbar-right ~ .navbar-right {
@@ -4380,13 +4406,31 @@ https://templatemo.com/tm-512-moonlight
   }
   .indexxx .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .indexxx .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .indexxx .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .indexxx
+    .navbar-default
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .active
+    > a:focus {
     color: #555;
     background-color: #e7e7e7;
   }
   .indexxx .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
-  .indexxx .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .indexxx .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  .indexxx
+    .navbar-default
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .disabled
+    > a:hover,
+  .indexxx
+    .navbar-default
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .disabled
+    > a:focus {
     color: #ccc;
     background-color: transparent;
   }
@@ -4482,13 +4526,31 @@ https://templatemo.com/tm-512-moonlight
   }
   .indexxx .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .indexxx .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .indexxx .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .indexxx
+    .navbar-inverse
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .active
+    > a:focus {
     color: #fff;
     background-color: #080808;
   }
   .indexxx .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
-  .indexxx .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .indexxx .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  .indexxx
+    .navbar-inverse
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .disabled
+    > a:hover,
+  .indexxx
+    .navbar-inverse
+    .navbar-nav
+    .open
+    .dropdown-menu
+    > .disabled
+    > a:focus {
     color: #444;
     background-color: transparent;
   }
@@ -4663,7 +4725,7 @@ https://templatemo.com/tm-512-moonlight
 }
 .indexxx .label {
   display: inline;
-  padding: .2em .6em .3em;
+  padding: 0.2em 0.6em 0.3em;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
@@ -4957,15 +5019,42 @@ https://templatemo.com/tm-512-moonlight
   background-color: #337ab7;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width .6s ease;
-  -o-transition: width .6s ease;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
 .indexxx .progress-striped .progress-bar,
 .indexxx .progress-bar-striped {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
   -webkit-background-size: 40px 40px;
   background-size: 40px 40px;
 }
@@ -4979,33 +5068,141 @@ https://templatemo.com/tm-512-moonlight
   background-color: #5cb85c;
 }
 .indexxx .progress-striped .progress-bar-success {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 .indexxx .progress-bar-info {
   background-color: #5bc0de;
 }
 .indexxx .progress-striped .progress-bar-info {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 .indexxx .progress-bar-warning {
   background-color: #f0ad4e;
 }
 .indexxx .progress-striped .progress-bar-warning {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 .indexxx .progress-bar-danger {
   background-color: #d9534f;
 }
 .indexxx .progress-striped .progress-bar-danger {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 .indexxx .media {
   margin-top: 15px;
@@ -5257,13 +5454,21 @@ https://templatemo.com/tm-512-moonlight
   border-radius: 0;
 }
 .indexxx .panel > .list-group:first-child .list-group-item:first-child,
-.indexxx .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+.indexxx
+  .panel
+  > .panel-collapse
+  > .list-group:first-child
+  .list-group-item:first-child {
   border-top: 0;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 .indexxx .panel > .list-group:last-child .list-group-item:last-child,
-.indexxx .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+.indexxx
+  .panel
+  > .panel-collapse
+  > .list-group:last-child
+  .list-group-item:last-child {
   border-bottom: 0;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -5291,30 +5496,128 @@ https://templatemo.com/tm-512-moonlight
   border-top-right-radius: 3px;
 }
 .indexxx .panel > .table:first-child > thead:first-child > tr:first-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child,
 .indexxx .panel > .table:first-child > tbody:first-child > tr:first-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
-.indexxx .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
-.indexxx .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
-.indexxx .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
-.indexxx .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+.indexxx
+  .panel
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child
+  td:first-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child
+  td:first-child,
+.indexxx
+  .panel
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child
+  td:first-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child
+  td:first-child,
+.indexxx
+  .panel
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child
+  th:first-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child
+  th:first-child,
+.indexxx
+  .panel
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child
+  th:first-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child
+  th:first-child {
   border-top-left-radius: 3px;
 }
-.indexxx .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
-.indexxx .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
-.indexxx .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
-.indexxx .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
-.indexxx .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+.indexxx
+  .panel
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child
+  td:last-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child
+  td:last-child,
+.indexxx
+  .panel
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child
+  td:last-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child
+  td:last-child,
+.indexxx
+  .panel
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child
+  th:last-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > thead:first-child
+  > tr:first-child
+  th:last-child,
+.indexxx
+  .panel
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child
+  th:last-child,
+.indexxx
+  .panel
+  > .table-responsive:first-child
+  > .table:first-child
+  > tbody:first-child
+  > tr:first-child
+  th:last-child {
   border-top-right-radius: 3px;
 }
 .indexxx .panel > .table:last-child,
@@ -5323,30 +5626,128 @@ https://templatemo.com/tm-512-moonlight
   border-bottom-left-radius: 3px;
 }
 .indexxx .panel > .table:last-child > tbody:last-child > tr:last-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child,
 .indexxx .panel > .table:last-child > tfoot:last-child > tr:last-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-.indexxx .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
-.indexxx .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
-.indexxx .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
-.indexxx .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+.indexxx
+  .panel
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child
+  td:first-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child
+  td:first-child,
+.indexxx
+  .panel
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child
+  td:first-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child
+  td:first-child,
+.indexxx
+  .panel
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child
+  th:first-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child
+  th:first-child,
+.indexxx
+  .panel
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child
+  th:first-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child
+  th:first-child {
   border-bottom-left-radius: 3px;
 }
-.indexxx .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
-.indexxx .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
-.indexxx .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
-.indexxx .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
-.indexxx .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+.indexxx
+  .panel
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child
+  td:last-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child
+  td:last-child,
+.indexxx
+  .panel
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child
+  td:last-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child
+  td:last-child,
+.indexxx
+  .panel
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child
+  th:last-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tbody:last-child
+  > tr:last-child
+  th:last-child,
+.indexxx
+  .panel
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child
+  th:last-child,
+.indexxx
+  .panel
+  > .table-responsive:last-child
+  > .table:last-child
+  > tfoot:last-child
+  > tr:last-child
+  th:last-child {
   border-bottom-right-radius: 3px;
 }
 .indexxx .panel > .panel-body + .table,
@@ -5364,51 +5765,171 @@ https://templatemo.com/tm-512-moonlight
   border: 0;
 }
 .indexxx .panel > .table-bordered > thead > tr > th:first-child,
-.indexxx .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr
+  > th:first-child,
 .indexxx .panel > .table-bordered > tbody > tr > th:first-child,
-.indexxx .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr
+  > th:first-child,
 .indexxx .panel > .table-bordered > tfoot > tr > th:first-child,
-.indexxx .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr
+  > th:first-child,
 .indexxx .panel > .table-bordered > thead > tr > td:first-child,
-.indexxx .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr
+  > td:first-child,
 .indexxx .panel > .table-bordered > tbody > tr > td:first-child,
-.indexxx .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr
+  > td:first-child,
 .indexxx .panel > .table-bordered > tfoot > tr > td:first-child,
-.indexxx .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr
+  > td:first-child {
   border-left: 0;
 }
 .indexxx .panel > .table-bordered > thead > tr > th:last-child,
-.indexxx .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr
+  > th:last-child,
 .indexxx .panel > .table-bordered > tbody > tr > th:last-child,
-.indexxx .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr
+  > th:last-child,
 .indexxx .panel > .table-bordered > tfoot > tr > th:last-child,
-.indexxx .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr
+  > th:last-child,
 .indexxx .panel > .table-bordered > thead > tr > td:last-child,
-.indexxx .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr
+  > td:last-child,
 .indexxx .panel > .table-bordered > tbody > tr > td:last-child,
-.indexxx .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr
+  > td:last-child,
 .indexxx .panel > .table-bordered > tfoot > tr > td:last-child,
-.indexxx .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr
+  > td:last-child {
   border-right: 0;
 }
 .indexxx .panel > .table-bordered > thead > tr:first-child > td,
-.indexxx .panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr:first-child
+  > td,
 .indexxx .panel > .table-bordered > tbody > tr:first-child > td,
-.indexxx .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr:first-child
+  > td,
 .indexxx .panel > .table-bordered > thead > tr:first-child > th,
-.indexxx .panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > thead
+  > tr:first-child
+  > th,
 .indexxx .panel > .table-bordered > tbody > tr:first-child > th,
-.indexxx .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr:first-child
+  > th {
   border-bottom: 0;
 }
 .indexxx .panel > .table-bordered > tbody > tr:last-child > td,
-.indexxx .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr:last-child
+  > td,
 .indexxx .panel > .table-bordered > tfoot > tr:last-child > td,
-.indexxx .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr:last-child
+  > td,
 .indexxx .panel > .table-bordered > tbody > tr:last-child > th,
-.indexxx .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tbody
+  > tr:last-child
+  > th,
 .indexxx .panel > .table-bordered > tfoot > tr:last-child > th,
-.indexxx .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+.indexxx
+  .panel
+  > .table-responsive
+  > .table-bordered
+  > tfoot
+  > tr:last-child
+  > th {
   border-bottom: 0;
 }
 .indexxx .panel > .table-responsive {
@@ -6094,10 +6615,10 @@ https://templatemo.com/tm-512-moonlight
   font-family: serif;
 }
 .indexxx .carousel-control .icon-prev:before {
-  content: '\2039';
+  content: "\2039";
 }
 .indexxx .carousel-control .icon-next:before {
-  content: '\203a';
+  content: "\203a";
 }
 .indexxx .carousel-indicators {
   position: absolute;
@@ -6248,7 +6769,7 @@ https://templatemo.com/tm-512-moonlight
   border: 0;
 }
 .indexxx .hidden {
-  display: none!important;
+  display: none !important;
   visibility: hidden !important;
 }
 .indexxx .affix {
@@ -6465,9 +6986,15 @@ https://templatemo.com/tm-512-moonlight
   }
 }
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
+      format("embedded-opentype"),
+    url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+    url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+    url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+    url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -6519,9 +7046,9 @@ https://templatemo.com/tm-512-moonlight
   left: -1.85714286em;
 }
 .indexxx .fa-border {
-  padding: .2em .25em .15em;
+  padding: 0.2em 0.25em 0.15em;
   border: solid 0.08em #eeeeee;
-  border-radius: .1em;
+  border-radius: 0.1em;
 }
 .indexxx .fa-pull-left {
   float: left;
@@ -6530,10 +7057,10 @@ https://templatemo.com/tm-512-moonlight
   float: right;
 }
 .indexxx .fa.fa-pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 .indexxx .fa.fa-pull-right {
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
 .indexxx .pull-right {
   float: right;
@@ -6542,10 +7069,10 @@ https://templatemo.com/tm-512-moonlight
   float: left;
 }
 .indexxx .fa.pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 .indexxx .fa.pull-right {
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
 .indexxx .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
@@ -8815,7 +9342,7 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .seq-preloader.seq-preloaded {
   opacity: 0;
   visibility: hidden;
-  transition: visibility 0s .5s, opacity .5s;
+  transition: visibility 0s 0.5s, opacity 0.5s;
 }
 .indexxx .seq-preload-indicator {
   overflow: visible;
@@ -8833,10 +9360,10 @@ https://templatemo.com/tm-512-moonlight
   animation: seq-preloader 1.25s infinite;
 }
 .indexxx .seq-preload-circle-2 {
-  animation-delay: .15s;
+  animation-delay: 0.15s;
 }
 .indexxx .seq-preload-circle-3 {
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 .indexxx .seq-preload-indicator-fallback {
   width: 42px;
@@ -8987,7 +9514,7 @@ https://templatemo.com/tm-512-moonlight
   color: #fff;
 }
 .indexxx .first a {
-  text-decoration: none!important;
+  text-decoration: none !important;
   font-size: 14px;
   letter-spacing: 0.5px;
   -webkit-transition: color 2s, background 1s;
@@ -9021,7 +9548,7 @@ https://templatemo.com/tm-512-moonlight
   opacity: 1;
 }
 .indexxx .slides {
-  width: 500vw;
+  width: 100vw;
   height: 100vh;
   -webkit-transition: -webkit-transform 0.8s ease;
   transition: -webkit-transform 0.8s ease;
@@ -9073,7 +9600,7 @@ https://templatemo.com/tm-512-moonlight
 }
 .indexxx .main-btn a:hover {
   background-color: #fff;
-  color: #232323!important;
+  color: #232323 !important;
 }
 .indexxx .first-content {
   padding: 100px;
@@ -9442,7 +9969,7 @@ https://templatemo.com/tm-512-moonlight
   color: white;
   padding: 20px 57px;
   position: relative;
-  text-decoration: none!important;
+  text-decoration: none !important;
   -webkit-transition: color 2s, background 1s;
   transition: color 2s, background 1s;
   z-index: 0;
@@ -9489,7 +10016,7 @@ https://templatemo.com/tm-512-moonlight
   font-size: 18px;
   color: white;
   position: relative;
-  text-decoration: none!important;
+  text-decoration: none !important;
   -webkit-transition: color 2s, background 1s;
   transition: color 2s, background 1s;
   z-index: 0;
@@ -9660,6 +10187,7 @@ https://templatemo.com/tm-512-moonlight
   display: inline-block;
   border: 2px solid black;
   margin: 10px 0px;
+  color: black;
 }
 .indexxx #tab-8 {
   text-align: center;
@@ -9811,8 +10339,11 @@ https://templatemo.com/tm-512-moonlight
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
 }
 .indexxx .bootstrap-iso *,
 .indexxx .bootstrap-iso ::after,
@@ -9841,7 +10372,9 @@ https://templatemo.com/tm-512-moonlight
 }
 .indexxx .bootstrap-iso body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -9948,7 +10481,8 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso kbd,
 .indexxx .bootstrap-iso pre,
 .indexxx .bootstrap-iso samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
   font-size: 1em;
 }
 .indexxx .bootstrap-iso pre {
@@ -11912,42 +12446,94 @@ https://templatemo.com/tm-512-moonlight
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 .indexxx .bootstrap-iso .form-check-input.is-valid ~ .form-check-label,
-.indexxx .bootstrap-iso .was-validated .form-check-input:valid ~ .form-check-label {
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .form-check-input:valid
+  ~ .form-check-label {
   color: #28a745;
 }
 .indexxx .bootstrap-iso .form-check-input.is-valid ~ .valid-feedback,
 .indexxx .bootstrap-iso .form-check-input.is-valid ~ .valid-tooltip,
-.indexxx .bootstrap-iso .was-validated .form-check-input:valid ~ .valid-feedback,
-.indexxx .bootstrap-iso .was-validated .form-check-input:valid ~ .valid-tooltip {
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .form-check-input:valid
+  ~ .valid-feedback,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .form-check-input:valid
+  ~ .valid-tooltip {
   display: block;
 }
 .indexxx .bootstrap-iso .custom-control-input.is-valid ~ .custom-control-label,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:valid ~ .custom-control-label {
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:valid
+  ~ .custom-control-label {
   color: #28a745;
 }
-.indexxx .bootstrap-iso .custom-control-input.is-valid ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:valid ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-valid
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:valid
+  ~ .custom-control-label::before {
   border-color: #28a745;
 }
-.indexxx .bootstrap-iso .custom-control-input.is-valid:checked ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:valid:checked ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-valid:checked
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:valid:checked
+  ~ .custom-control-label::before {
   border-color: #34ce57;
   background-color: #34ce57;
 }
-.indexxx .bootstrap-iso .custom-control-input.is-valid:focus ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-valid:focus
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:valid:focus
+  ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
-.indexxx .bootstrap-iso .custom-control-input.is-valid:focus:not(:checked) ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:valid:focus:not(:checked) ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-valid:focus:not(:checked)
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:valid:focus:not(:checked)
+  ~ .custom-control-label::before {
   border-color: #28a745;
 }
 .indexxx .bootstrap-iso .custom-file-input.is-valid ~ .custom-file-label,
-.indexxx .bootstrap-iso .was-validated .custom-file-input:valid ~ .custom-file-label {
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-file-input:valid
+  ~ .custom-file-label {
   border-color: #28a745;
 }
 .indexxx .bootstrap-iso .custom-file-input.is-valid:focus ~ .custom-file-label,
-.indexxx .bootstrap-iso .was-validated .custom-file-input:valid:focus ~ .custom-file-label {
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-file-input:valid:focus
+  ~ .custom-file-label {
   border-color: #28a745;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
@@ -11999,42 +12585,100 @@ https://templatemo.com/tm-512-moonlight
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 .indexxx .bootstrap-iso .form-check-input.is-invalid ~ .form-check-label,
-.indexxx .bootstrap-iso .was-validated .form-check-input:invalid ~ .form-check-label {
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .form-check-input:invalid
+  ~ .form-check-label {
   color: #dc3545;
 }
 .indexxx .bootstrap-iso .form-check-input.is-invalid ~ .invalid-feedback,
 .indexxx .bootstrap-iso .form-check-input.is-invalid ~ .invalid-tooltip,
-.indexxx .bootstrap-iso .was-validated .form-check-input:invalid ~ .invalid-feedback,
-.indexxx .bootstrap-iso .was-validated .form-check-input:invalid ~ .invalid-tooltip {
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .form-check-input:invalid
+  ~ .invalid-feedback,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .form-check-input:invalid
+  ~ .invalid-tooltip {
   display: block;
 }
-.indexxx .bootstrap-iso .custom-control-input.is-invalid ~ .custom-control-label,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:invalid ~ .custom-control-label {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-invalid
+  ~ .custom-control-label,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:invalid
+  ~ .custom-control-label {
   color: #dc3545;
 }
-.indexxx .bootstrap-iso .custom-control-input.is-invalid ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:invalid ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-invalid
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:invalid
+  ~ .custom-control-label::before {
   border-color: #dc3545;
 }
-.indexxx .bootstrap-iso .custom-control-input.is-invalid:checked ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-invalid:checked
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:invalid:checked
+  ~ .custom-control-label::before {
   border-color: #e4606d;
   background-color: #e4606d;
 }
-.indexxx .bootstrap-iso .custom-control-input.is-invalid:focus ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-invalid:focus
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:invalid:focus
+  ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
-.indexxx .bootstrap-iso .custom-control-input.is-invalid:focus:not(:checked) ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .was-validated .custom-control-input:invalid:focus:not(:checked) ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input.is-invalid:focus:not(:checked)
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-control-input:invalid:focus:not(:checked)
+  ~ .custom-control-label::before {
   border-color: #dc3545;
 }
 .indexxx .bootstrap-iso .custom-file-input.is-invalid ~ .custom-file-label,
-.indexxx .bootstrap-iso .was-validated .custom-file-input:invalid ~ .custom-file-label {
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-file-input:invalid
+  ~ .custom-file-label {
   border-color: #dc3545;
 }
-.indexxx .bootstrap-iso .custom-file-input.is-invalid:focus ~ .custom-file-label,
-.indexxx .bootstrap-iso .was-validated .custom-file-input:invalid:focus ~ .custom-file-label {
+.indexxx
+  .bootstrap-iso
+  .custom-file-input.is-invalid:focus
+  ~ .custom-file-label,
+.indexxx
+  .bootstrap-iso
+  .was-validated
+  .custom-file-input:invalid:focus
+  ~ .custom-file-label {
   border-color: #dc3545;
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
@@ -12126,7 +12770,8 @@ https://templatemo.com/tm-512-moonlight
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .indexxx .bootstrap-iso .btn {
@@ -12190,8 +12835,12 @@ https://templatemo.com/tm-512-moonlight
   background-color: #545b62;
   border-color: #4e555b;
 }
-.indexxx .bootstrap-iso .btn-secondary:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-secondary:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-secondary:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
 }
@@ -12424,15 +13073,23 @@ https://templatemo.com/tm-512-moonlight
   color: #007bff;
   background-color: transparent;
 }
-.indexxx .bootstrap-iso .btn-outline-primary:not(:disabled):not(.disabled).active,
-.indexxx .bootstrap-iso .btn-outline-primary:not(:disabled):not(.disabled):active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-primary:not(:disabled):not(.disabled).active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-primary:not(:disabled):not(.disabled):active,
 .indexxx .bootstrap-iso .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
 }
-.indexxx .bootstrap-iso .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
@@ -12454,15 +13111,23 @@ https://templatemo.com/tm-512-moonlight
   color: #6c757d;
   background-color: transparent;
 }
-.indexxx .bootstrap-iso .btn-outline-secondary:not(:disabled):not(.disabled).active,
-.indexxx .bootstrap-iso .btn-outline-secondary:not(:disabled):not(.disabled):active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-secondary:not(:disabled):not(.disabled).active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-secondary:not(:disabled):not(.disabled):active,
 .indexxx .bootstrap-iso .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
 }
-.indexxx .bootstrap-iso .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-outline-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
 }
@@ -12484,15 +13149,23 @@ https://templatemo.com/tm-512-moonlight
   color: #28a745;
   background-color: transparent;
 }
-.indexxx .bootstrap-iso .btn-outline-success:not(:disabled):not(.disabled).active,
-.indexxx .bootstrap-iso .btn-outline-success:not(:disabled):not(.disabled):active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-success:not(:disabled):not(.disabled).active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-success:not(:disabled):not(.disabled):active,
 .indexxx .bootstrap-iso .show > .btn-outline-success.dropdown-toggle {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
 }
-.indexxx .bootstrap-iso .btn-outline-success:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-success:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-outline-success.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
 }
@@ -12521,8 +13194,12 @@ https://templatemo.com/tm-512-moonlight
   background-color: #17a2b8;
   border-color: #17a2b8;
 }
-.indexxx .bootstrap-iso .btn-outline-info:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-outline-info:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-info:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-info:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-outline-info.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
 }
@@ -12544,15 +13221,23 @@ https://templatemo.com/tm-512-moonlight
   color: #ffc107;
   background-color: transparent;
 }
-.indexxx .bootstrap-iso .btn-outline-warning:not(:disabled):not(.disabled).active,
-.indexxx .bootstrap-iso .btn-outline-warning:not(:disabled):not(.disabled):active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-warning:not(:disabled):not(.disabled).active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-warning:not(:disabled):not(.disabled):active,
 .indexxx .bootstrap-iso .show > .btn-outline-warning.dropdown-toggle {
   color: #212529;
   background-color: #ffc107;
   border-color: #ffc107;
 }
-.indexxx .bootstrap-iso .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-outline-warning:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-warning:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-outline-warning.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
 }
@@ -12574,15 +13259,23 @@ https://templatemo.com/tm-512-moonlight
   color: #dc3545;
   background-color: transparent;
 }
-.indexxx .bootstrap-iso .btn-outline-danger:not(:disabled):not(.disabled).active,
-.indexxx .bootstrap-iso .btn-outline-danger:not(:disabled):not(.disabled):active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-danger:not(:disabled):not(.disabled).active,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-danger:not(:disabled):not(.disabled):active,
 .indexxx .bootstrap-iso .show > .btn-outline-danger.dropdown-toggle {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
-.indexxx .bootstrap-iso .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-outline-danger:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-danger:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-outline-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
 }
@@ -12611,8 +13304,12 @@ https://templatemo.com/tm-512-moonlight
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.indexxx .bootstrap-iso .btn-outline-light:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-outline-light:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-light:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-light:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-outline-light.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
@@ -12641,8 +13338,12 @@ https://templatemo.com/tm-512-moonlight
   background-color: #343a40;
   border-color: #343a40;
 }
-.indexxx .bootstrap-iso .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
-.indexxx .bootstrap-iso .btn-outline-dark:not(:disabled):not(.disabled):active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.indexxx
+  .bootstrap-iso
+  .btn-outline-dark:not(:disabled):not(.disabled):active:focus,
 .indexxx .bootstrap-iso .show > .btn-outline-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
@@ -12977,7 +13678,10 @@ https://templatemo.com/tm-512-moonlight
   margin-left: -1px;
 }
 .indexxx .bootstrap-iso .btn-group > .btn-group:not(:last-child) > .btn,
-.indexxx .bootstrap-iso .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+.indexxx
+  .bootstrap-iso
+  .btn-group
+  > .btn:not(:last-child):not(.dropdown-toggle) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -13024,12 +13728,23 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .btn-group-vertical > .btn:not(:first-child) {
   margin-top: -1px;
 }
-.indexxx .bootstrap-iso .btn-group-vertical > .btn-group:not(:last-child) > .btn,
-.indexxx .bootstrap-iso .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle) {
+.indexxx
+  .bootstrap-iso
+  .btn-group-vertical
+  > .btn-group:not(:last-child)
+  > .btn,
+.indexxx
+  .bootstrap-iso
+  .btn-group-vertical
+  > .btn:not(:last-child):not(.dropdown-toggle) {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.indexxx .bootstrap-iso .btn-group-vertical > .btn-group:not(:first-child) > .btn,
+.indexxx
+  .bootstrap-iso
+  .btn-group-vertical
+  > .btn-group:not(:first-child)
+  > .btn,
 .indexxx .bootstrap-iso .btn-group-vertical > .btn:not(:first-child) {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -13040,8 +13755,18 @@ https://templatemo.com/tm-512-moonlight
 }
 .indexxx .bootstrap-iso .btn-group-toggle > .btn input[type="checkbox"],
 .indexxx .bootstrap-iso .btn-group-toggle > .btn input[type="radio"],
-.indexxx .bootstrap-iso .btn-group-toggle > .btn-group > .btn input[type="checkbox"],
-.indexxx .bootstrap-iso .btn-group-toggle > .btn-group > .btn input[type="radio"] {
+.indexxx
+  .bootstrap-iso
+  .btn-group-toggle
+  > .btn-group
+  > .btn
+  input[type="checkbox"],
+.indexxx
+  .bootstrap-iso
+  .btn-group-toggle
+  > .btn-group
+  > .btn
+  input[type="radio"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
@@ -13081,7 +13806,12 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .input-group > .form-control-plaintext + .form-control {
   margin-left: -1px;
 }
-.indexxx .bootstrap-iso .input-group > .custom-file .custom-file-input:focus ~ .custom-file-label,
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .custom-file
+  .custom-file-input:focus
+  ~ .custom-file-label,
 .indexxx .bootstrap-iso .input-group > .custom-select:focus,
 .indexxx .bootstrap-iso .input-group > .form-control:focus {
   z-index: 3;
@@ -13100,20 +13830,48 @@ https://templatemo.com/tm-512-moonlight
   -ms-flex-align: center;
   align-items: center;
 }
-.indexxx .bootstrap-iso .input-group > .custom-file:not(:first-child) .custom-file-label,
-.indexxx .bootstrap-iso .input-group > .custom-file:not(:last-child) .custom-file-label {
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .custom-file:not(:first-child)
+  .custom-file-label,
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .custom-file:not(:last-child)
+  .custom-file-label {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-.indexxx .bootstrap-iso .input-group:not(.has-validation) > .custom-file:not(:last-child) .custom-file-label::after,
-.indexxx .bootstrap-iso .input-group:not(.has-validation) > .custom-select:not(:last-child),
-.indexxx .bootstrap-iso .input-group:not(.has-validation) > .form-control:not(:last-child) {
+.indexxx
+  .bootstrap-iso
+  .input-group:not(.has-validation)
+  > .custom-file:not(:last-child)
+  .custom-file-label::after,
+.indexxx
+  .bootstrap-iso
+  .input-group:not(.has-validation)
+  > .custom-select:not(:last-child),
+.indexxx
+  .bootstrap-iso
+  .input-group:not(.has-validation)
+  > .form-control:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.indexxx .bootstrap-iso .input-group.has-validation > .custom-file:nth-last-child(n + 3) .custom-file-label::after,
-.indexxx .bootstrap-iso .input-group.has-validation > .custom-select:nth-last-child(n + 3),
-.indexxx .bootstrap-iso .input-group.has-validation > .form-control:nth-last-child(n + 3) {
+.indexxx
+  .bootstrap-iso
+  .input-group.has-validation
+  > .custom-file:nth-last-child(n + 3)
+  .custom-file-label::after,
+.indexxx
+  .bootstrap-iso
+  .input-group.has-validation
+  > .custom-select:nth-last-child(n + 3),
+.indexxx
+  .bootstrap-iso
+  .input-group.has-validation
+  > .form-control:nth-last-child(n + 3) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -13134,11 +13892,19 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .input-group-append .btn + .btn,
 .indexxx .bootstrap-iso .input-group-append .btn + .input-group-text,
 .indexxx .bootstrap-iso .input-group-append .input-group-text + .btn,
-.indexxx .bootstrap-iso .input-group-append .input-group-text + .input-group-text,
+.indexxx
+  .bootstrap-iso
+  .input-group-append
+  .input-group-text
+  + .input-group-text,
 .indexxx .bootstrap-iso .input-group-prepend .btn + .btn,
 .indexxx .bootstrap-iso .input-group-prepend .btn + .input-group-text,
 .indexxx .bootstrap-iso .input-group-prepend .input-group-text + .btn,
-.indexxx .bootstrap-iso .input-group-prepend .input-group-text + .input-group-text {
+.indexxx
+  .bootstrap-iso
+  .input-group-prepend
+  .input-group-text
+  + .input-group-text {
   margin-left: -1px;
 }
 .indexxx .bootstrap-iso .input-group-prepend {
@@ -13175,9 +13941,17 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .input-group-lg > .custom-select,
 .indexxx .bootstrap-iso .input-group-lg > .form-control,
 .indexxx .bootstrap-iso .input-group-lg > .input-group-append > .btn,
-.indexxx .bootstrap-iso .input-group-lg > .input-group-append > .input-group-text,
+.indexxx
+  .bootstrap-iso
+  .input-group-lg
+  > .input-group-append
+  > .input-group-text,
 .indexxx .bootstrap-iso .input-group-lg > .input-group-prepend > .btn,
-.indexxx .bootstrap-iso .input-group-lg > .input-group-prepend > .input-group-text {
+.indexxx
+  .bootstrap-iso
+  .input-group-lg
+  > .input-group-prepend
+  > .input-group-text {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -13190,9 +13964,17 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .input-group-sm > .custom-select,
 .indexxx .bootstrap-iso .input-group-sm > .form-control,
 .indexxx .bootstrap-iso .input-group-sm > .input-group-append > .btn,
-.indexxx .bootstrap-iso .input-group-sm > .input-group-append > .input-group-text,
+.indexxx
+  .bootstrap-iso
+  .input-group-sm
+  > .input-group-append
+  > .input-group-text,
 .indexxx .bootstrap-iso .input-group-sm > .input-group-prepend > .btn,
-.indexxx .bootstrap-iso .input-group-sm > .input-group-prepend > .input-group-text {
+.indexxx
+  .bootstrap-iso
+  .input-group-sm
+  > .input-group-prepend
+  > .input-group-text {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -13202,23 +13984,67 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .input-group-sm > .custom-select {
   padding-right: 1.75rem;
 }
-.indexxx .bootstrap-iso .input-group.has-validation > .input-group-append:nth-last-child(n + 3) > .btn,
-.indexxx .bootstrap-iso .input-group.has-validation > .input-group-append:nth-last-child(n + 3) > .input-group-text,
-.indexxx .bootstrap-iso .input-group:not(.has-validation) > .input-group-append:not(:last-child) > .btn,
-.indexxx .bootstrap-iso .input-group:not(.has-validation) > .input-group-append:not(:last-child) > .input-group-text,
-.indexxx .bootstrap-iso .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
-.indexxx .bootstrap-iso .input-group > .input-group-append:last-child > .input-group-text:not(:last-child),
+.indexxx
+  .bootstrap-iso
+  .input-group.has-validation
+  > .input-group-append:nth-last-child(n + 3)
+  > .btn,
+.indexxx
+  .bootstrap-iso
+  .input-group.has-validation
+  > .input-group-append:nth-last-child(n + 3)
+  > .input-group-text,
+.indexxx
+  .bootstrap-iso
+  .input-group:not(.has-validation)
+  > .input-group-append:not(:last-child)
+  > .btn,
+.indexxx
+  .bootstrap-iso
+  .input-group:not(.has-validation)
+  > .input-group-append:not(:last-child)
+  > .input-group-text,
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .input-group-append:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle),
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .input-group-append:last-child
+  > .input-group-text:not(:last-child),
 .indexxx .bootstrap-iso .input-group > .input-group-prepend > .btn,
-.indexxx .bootstrap-iso .input-group > .input-group-prepend > .input-group-text {
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .input-group-prepend
+  > .input-group-text {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 .indexxx .bootstrap-iso .input-group > .input-group-append > .btn,
 .indexxx .bootstrap-iso .input-group > .input-group-append > .input-group-text,
-.indexxx .bootstrap-iso .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
-.indexxx .bootstrap-iso .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child),
-.indexxx .bootstrap-iso .input-group > .input-group-prepend:not(:first-child) > .btn,
-.indexxx .bootstrap-iso .input-group > .input-group-prepend:not(:first-child) > .input-group-text {
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .input-group-prepend:first-child
+  > .btn:not(:first-child),
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .input-group-prepend:first-child
+  > .input-group-text:not(:first-child),
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .input-group-prepend:not(:first-child)
+  > .btn,
+.indexxx
+  .bootstrap-iso
+  .input-group
+  > .input-group-prepend:not(:first-child)
+  > .input-group-text {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -13244,28 +14070,49 @@ https://templatemo.com/tm-512-moonlight
   height: 1.25rem;
   opacity: 0;
 }
-.indexxx .bootstrap-iso .custom-control-input:checked ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
   color: #fff;
   border-color: #007bff;
   background-color: #007bff;
 }
-.indexxx .bootstrap-iso .custom-control-input:focus ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input:focus
+  ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
-.indexxx .bootstrap-iso .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input:focus:not(:checked)
+  ~ .custom-control-label::before {
   border-color: #80bdff;
 }
-.indexxx .bootstrap-iso .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input:not(:disabled):active
+  ~ .custom-control-label::before {
   color: #fff;
   background-color: #b3d7ff;
   border-color: #b3d7ff;
 }
 .indexxx .bootstrap-iso .custom-control-input:disabled ~ .custom-control-label,
-.indexxx .bootstrap-iso .custom-control-input[disabled] ~ .custom-control-label {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input[disabled]
+  ~ .custom-control-label {
   color: #6c757d;
 }
-.indexxx .bootstrap-iso .custom-control-input:disabled ~ .custom-control-label::before,
-.indexxx .bootstrap-iso .custom-control-input[disabled] ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-control-input:disabled
+  ~ .custom-control-label::before,
+.indexxx
+  .bootstrap-iso
+  .custom-control-input[disabled]
+  ~ .custom-control-label::before {
   background-color: #e9ecef;
 }
 .indexxx .bootstrap-iso .custom-control-label {
@@ -13298,20 +14145,36 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .custom-checkbox .custom-control-label::before {
   border-radius: 0.25rem;
 }
-.indexxx .bootstrap-iso .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-checkbox
+  .custom-control-input:indeterminate
+  ~ .custom-control-label::before {
   border-color: #007bff;
   background-color: #007bff;
 }
-.indexxx .bootstrap-iso .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-checkbox
+  .custom-control-input:disabled:checked
+  ~ .custom-control-label::before {
   background-color: rgba(0, 123, 255, 0.5);
 }
-.indexxx .bootstrap-iso .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-checkbox
+  .custom-control-input:disabled:indeterminate
+  ~ .custom-control-label::before {
   background-color: rgba(0, 123, 255, 0.5);
 }
 .indexxx .bootstrap-iso .custom-radio .custom-control-label::before {
   border-radius: 50%;
 }
-.indexxx .bootstrap-iso .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-radio
+  .custom-control-input:disabled:checked
+  ~ .custom-control-label::before {
   background-color: rgba(0, 123, 255, 0.5);
 }
 .indexxx .bootstrap-iso .custom-switch {
@@ -13330,21 +14193,33 @@ https://templatemo.com/tm-512-moonlight
   height: calc(-3rem);
   background-color: #adb5bd;
   border-radius: 0.5rem;
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
-  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-transform 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .indexxx .bootstrap-iso .custom-switch .custom-control-label::after {
     transition: none;
   }
 }
-.indexxx .bootstrap-iso .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+.indexxx
+  .bootstrap-iso
+  .custom-switch
+  .custom-control-input:checked
+  ~ .custom-control-label::after {
   background-color: #fff;
   -webkit-transform: translateX(0.75rem);
   transform: translateX(0.75rem);
 }
-.indexxx .bootstrap-iso .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
+.indexxx
+  .bootstrap-iso
+  .custom-switch
+  .custom-control-input:disabled:checked
+  ~ .custom-control-label::before {
   background-color: rgba(0, 123, 255, 0.5);
 }
 .indexxx .bootstrap-iso .custom-select:focus {
@@ -13411,10 +14286,16 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .custom-file-input[disabled] ~ .custom-file-label {
   background-color: #e9ecef;
 }
-.indexxx .bootstrap-iso .custom-file-input:lang(en) ~ .custom-file-label::after {
+.indexxx
+  .bootstrap-iso
+  .custom-file-input:lang(en)
+  ~ .custom-file-label::after {
   content: "Browse";
 }
-.indexxx .bootstrap-iso .custom-file-input ~ .custom-file-label[data-browse]::after {
+.indexxx
+  .bootstrap-iso
+  .custom-file-input
+  ~ .custom-file-label[data-browse]::after {
   content: attr(data-browse);
 }
 .indexxx .bootstrap-iso .custom-file-label {
@@ -13480,8 +14361,10 @@ https://templatemo.com/tm-512-moonlight
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
-  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-transition: background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
   appearance: none;
 }
@@ -13509,8 +14392,10 @@ https://templatemo.com/tm-512-moonlight
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
-  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -moz-transition: background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   -moz-appearance: none;
   appearance: none;
 }
@@ -13541,8 +14426,10 @@ https://templatemo.com/tm-512-moonlight
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
-  -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -ms-transition: background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -13590,7 +14477,8 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .custom-control-label::before,
 .indexxx .bootstrap-iso .custom-file-label,
 .indexxx .bootstrap-iso .custom-select {
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .indexxx .bootstrap-iso .custom-control-label::before,
@@ -14255,7 +15143,11 @@ https://templatemo.com/tm-512-moonlight
     border-top-right-radius: 0;
   }
   .indexxx .bootstrap-iso .card-group > .card:not(:last-child) .card-footer,
-  .indexxx .bootstrap-iso .card-group > .card:not(:last-child) .card-img-bottom {
+  .indexxx
+    .bootstrap-iso
+    .card-group
+    > .card:not(:last-child)
+    .card-img-bottom {
     border-bottom-right-radius: 0;
   }
   .indexxx .bootstrap-iso .card-group > .card:not(:first-child) {
@@ -14267,7 +15159,11 @@ https://templatemo.com/tm-512-moonlight
     border-top-left-radius: 0;
   }
   .indexxx .bootstrap-iso .card-group > .card:not(:first-child) .card-footer,
-  .indexxx .bootstrap-iso .card-group > .card:not(:first-child) .card-img-bottom {
+  .indexxx
+    .bootstrap-iso
+    .card-group
+    > .card:not(:first-child)
+    .card-img-bottom {
     border-bottom-left-radius: 0;
   }
 }
@@ -14425,7 +15321,8 @@ https://templatemo.com/tm-512-moonlight
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .indexxx .bootstrap-iso .badge {
@@ -14734,7 +15631,16 @@ https://templatemo.com/tm-512-moonlight
   }
 }
 .indexxx .bootstrap-iso .progress-bar-striped {
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
   background-size: 1rem 1rem;
 }
 .indexxx .bootstrap-iso .progress-bar-animated {
@@ -14831,11 +15737,19 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .list-group-horizontal > .list-group-item.active {
   margin-top: 0;
 }
-.indexxx .bootstrap-iso .list-group-horizontal > .list-group-item + .list-group-item {
+.indexxx
+  .bootstrap-iso
+  .list-group-horizontal
+  > .list-group-item
+  + .list-group-item {
   border-top-width: 1px;
   border-left-width: 0;
 }
-.indexxx .bootstrap-iso .list-group-horizontal > .list-group-item + .list-group-item.active {
+.indexxx
+  .bootstrap-iso
+  .list-group-horizontal
+  > .list-group-item
+  + .list-group-item.active {
   margin-left: -1px;
   border-left-width: 1px;
 }
@@ -14844,22 +15758,36 @@ https://templatemo.com/tm-512-moonlight
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-sm > .list-group-item:first-child {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-sm
+    > .list-group-item:first-child {
     border-bottom-left-radius: 0.25rem;
     border-top-right-radius: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-sm > .list-group-item:last-child {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-sm
+    > .list-group-item:last-child {
     border-top-right-radius: 0.25rem;
     border-bottom-left-radius: 0;
   }
   .indexxx .bootstrap-iso .list-group-horizontal-sm > .list-group-item.active {
     margin-top: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-sm > .list-group-item + .list-group-item {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-sm
+    > .list-group-item
+    + .list-group-item {
     border-top-width: 1px;
     border-left-width: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-sm > .list-group-item + .list-group-item.active {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-sm
+    > .list-group-item
+    + .list-group-item.active {
     margin-left: -1px;
     border-left-width: 1px;
   }
@@ -14869,22 +15797,36 @@ https://templatemo.com/tm-512-moonlight
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-md > .list-group-item:first-child {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-md
+    > .list-group-item:first-child {
     border-bottom-left-radius: 0.25rem;
     border-top-right-radius: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-md > .list-group-item:last-child {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-md
+    > .list-group-item:last-child {
     border-top-right-radius: 0.25rem;
     border-bottom-left-radius: 0;
   }
   .indexxx .bootstrap-iso .list-group-horizontal-md > .list-group-item.active {
     margin-top: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-md > .list-group-item + .list-group-item {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-md
+    > .list-group-item
+    + .list-group-item {
     border-top-width: 1px;
     border-left-width: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-md > .list-group-item + .list-group-item.active {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-md
+    > .list-group-item
+    + .list-group-item.active {
     margin-left: -1px;
     border-left-width: 1px;
   }
@@ -14894,22 +15836,36 @@ https://templatemo.com/tm-512-moonlight
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-lg > .list-group-item:first-child {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-lg
+    > .list-group-item:first-child {
     border-bottom-left-radius: 0.25rem;
     border-top-right-radius: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-lg > .list-group-item:last-child {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-lg
+    > .list-group-item:last-child {
     border-top-right-radius: 0.25rem;
     border-bottom-left-radius: 0;
   }
   .indexxx .bootstrap-iso .list-group-horizontal-lg > .list-group-item.active {
     margin-top: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-lg > .list-group-item + .list-group-item {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-lg
+    > .list-group-item
+    + .list-group-item {
     border-top-width: 1px;
     border-left-width: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-lg > .list-group-item + .list-group-item.active {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-lg
+    > .list-group-item
+    + .list-group-item.active {
     margin-left: -1px;
     border-left-width: 1px;
   }
@@ -14919,22 +15875,36 @@ https://templatemo.com/tm-512-moonlight
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-xl > .list-group-item:first-child {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-xl
+    > .list-group-item:first-child {
     border-bottom-left-radius: 0.25rem;
     border-top-right-radius: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-xl > .list-group-item:last-child {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-xl
+    > .list-group-item:last-child {
     border-top-right-radius: 0.25rem;
     border-bottom-left-radius: 0;
   }
   .indexxx .bootstrap-iso .list-group-horizontal-xl > .list-group-item.active {
     margin-top: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-xl > .list-group-item + .list-group-item {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-xl
+    > .list-group-item
+    + .list-group-item {
     border-top-width: 1px;
     border-left-width: 0;
   }
-  .indexxx .bootstrap-iso .list-group-horizontal-xl > .list-group-item + .list-group-item.active {
+  .indexxx
+    .bootstrap-iso
+    .list-group-horizontal-xl
+    > .list-group-item
+    + .list-group-item.active {
     margin-left: -1px;
     border-left-width: 1px;
   }
@@ -14967,11 +15937,15 @@ https://templatemo.com/tm-512-moonlight
   background-color: #d6d8db;
 }
 .indexxx .bootstrap-iso .list-group-item-secondary.list-group-item-action:focus,
-.indexxx .bootstrap-iso .list-group-item-secondary.list-group-item-action:hover {
+.indexxx
+  .bootstrap-iso
+  .list-group-item-secondary.list-group-item-action:hover {
   color: #383d41;
   background-color: #c8cbcf;
 }
-.indexxx .bootstrap-iso .list-group-item-secondary.list-group-item-action.active {
+.indexxx
+  .bootstrap-iso
+  .list-group-item-secondary.list-group-item-action.active {
   color: #fff;
   background-color: #383d41;
   border-color: #383d41;
@@ -15209,7 +16183,10 @@ https://templatemo.com/tm-512-moonlight
   justify-content: center;
   height: 100%;
 }
-.indexxx .bootstrap-iso .modal-dialog-centered.modal-dialog-scrollable .modal-content {
+.indexxx
+  .bootstrap-iso
+  .modal-dialog-centered.modal-dialog-scrollable
+  .modal-content {
   max-height: none;
 }
 .indexxx .bootstrap-iso .modal-dialog-centered.modal-dialog-scrollable::before {
@@ -15334,7 +16311,9 @@ https://templatemo.com/tm-512-moonlight
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -15442,7 +16421,9 @@ https://templatemo.com/tm-512-moonlight
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -15529,7 +16510,10 @@ https://templatemo.com/tm-512-moonlight
 .indexxx .bootstrap-iso .bs-popover-bottom > .arrow {
   top: calc(-1.5rem);
 }
-.indexxx .bootstrap-iso .bs-popover-auto[x-placement^="bottom"] > .arrow::before,
+.indexxx
+  .bootstrap-iso
+  .bs-popover-auto[x-placement^="bottom"]
+  > .arrow::before,
 .indexxx .bootstrap-iso .bs-popover-bottom > .arrow::before {
   top: 0;
   border-width: 0 0.5rem 0.5rem 0.5rem;
@@ -15541,7 +16525,10 @@ https://templatemo.com/tm-512-moonlight
   border-width: 0 0.5rem 0.5rem 0.5rem;
   border-bottom-color: #fff;
 }
-.indexxx .bootstrap-iso .bs-popover-auto[x-placement^="bottom"] .popover-header::before,
+.indexxx
+  .bootstrap-iso
+  .bs-popover-auto[x-placement^="bottom"]
+  .popover-header::before,
 .indexxx .bootstrap-iso .bs-popover-bottom .popover-header::before {
   position: absolute;
   top: 0;
@@ -18857,7 +19844,8 @@ https://templatemo.com/tm-512-moonlight
   background-color: rgba(0, 0, 0, 0);
 }
 .indexxx .bootstrap-iso .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace !important;
 }
 .indexxx .bootstrap-iso .text-justify {
   text-align: justify !important;
@@ -19230,9 +20218,7 @@ https://templatemo.com/tm-512-moonlight
   border: 2px solid white
 
 } */
-.card-body{
+.card-body {
   width: 290px;
-  border: 2px solid white
+  border: 2px solid white;
 }
-
-
